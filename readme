@@ -1,0 +1,84 @@
+## Leia-me - Sistema de Gerenciamento de Concessionária
+
+## Objetivo:
+
+Apresentar a implementação completa do sistema de gerenciamento de concessionária em linguagem C, utilizando as funcionalidades, regras de negócio e diagramas de caso de uso e estado detalhados anteriormente durante a apresentação do Curso.
+
+## Estrutura do Código:
+
+veiculos.c: Funções para gerenciamento de veículos (cadastrar, atualizar, buscar, listar).
+
+Clientes.c: Funções para gerenciamento de clientes (cadastrar, atualizar, buscar, listar).
+
+vendas.c: Funções para gerenciamento de vendas (registrar, listar, buscar, calcular comissão).
+
+main.c: Função principal do sistema, integrando as funcionalidades dos outros módulos.
+
+
+
+**1. Introdução:**
+
+Este repositório contém a implementação completa do Sistema de Gerenciamento de Concessionária em linguagem C, projetado para auxiliar no controle de estoque de veículos, registro de vendas, gerenciamento de clientes e cálculo de comissões para vendedores.
+
+**2. Funcionalidades:**
+
+* **Gerenciamento de Veículos:**
+    * Cadastrar novos veículos com informações detalhadas (modelo, marca, ano, placa, cor, etc.).
+    * Atualizar dados de veículos já cadastrados.
+    * Buscar veículos por modelo ou placa.
+    * Listar todos os veículos disponíveis para venda.
+    * Reservar veículos para clientes.
+    * Cancelar reservas de veículos.
+* **Gerenciamento de Clientes:**
+    * Cadastrar novos clientes com informações pessoais (nome, endereço, CPF, etc.).
+    * Atualizar dados de clientes já cadastrados.
+    * Buscar clientes por nome.
+    * Listar todos os clientes cadastrados.
+    * Consultar o histórico de compras de um cliente.
+* **Gerenciamento de Vendas:**
+    * Registrar novas vendas, associando cliente, veículo, valor total, forma de pagamento e data da venda.
+    * Listar todas as vendas realizadas.
+    * Buscar vendas por ID.
+    * Calcular a comissão do vendedor para cada venda.
+    * Concluir vendas, atualizando o status e finalizando o processo.
+    * Cancelar vendas, revertendo as alterações e atualizando o status.
+* **Relatórios e Consultas:**
+    * Gerar relatórios de vendas por período, vendedor ou modelo de veículo.
+    * Consultar estatísticas de vendas e desempenho dos vendedores.
+
+**3. Tecnologias Utilizadas:**
+
+* Linguagem de Programação: C
+* Paradigma de Programação: Estruturada
+* Ferramentas: Compilador GCC, Editor de Texto (ex: Vim, Code::Blocks)
+
+**4. Estrutura do Código:**
+
+O código é organizado em módulos separados por funcionalidade:
+
+* `veiculos.c`: Funções para gerenciamento de veículos.
+* `clientes.c`: Funções para gerenciamento de clientes.
+* `vendas.c`: Funções para gerenciamento de vendas.
+* `main.c`: Função principal que integra as funcionalidades dos módulos.
+
+**5. Execução:**
+
+Para executar o programa, compile os arquivos C utilizando o compilador GCC e execute o binário resultante.
+
+**6. Observações:**
+
+* Este é um projeto básico e pode ser expandido com novas funcionalidades e personalizações de acordo com as necessidades específicas da concessionária.
+* A implementação de persistência de dados (banco de dados, arquivos) é crucial para garantir a segurança e confiabilidade das informações.
+* A documentação do código e a criação de interfaces amigáveis para o usuário podem aprimorar a experiência e a usabilidade do sistema.
+
+**7. Contribuições:**
+
+Este projeto está em constante aprimoramento e aberto a contribuições da comunidade. Sugestões, correções de erros e novas ideias são bem-vindas!
+
+**8. Licença:**
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
+
+**9. Contato:**
+
+Para dúvidas, sugestões ou contribuições, entre em contato através do [insira seu canal de contato preferido (e-mail, GitHub, etc.)].
